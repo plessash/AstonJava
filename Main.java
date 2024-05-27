@@ -2,13 +2,10 @@ import EnemyRPG.Enemy;
 import EnemyRPG.Vandal;
 import EnemyRPG.Zombie;
 import HeroRPG.Archer;
-import HeroRPG.Hero;
 import HeroRPG.Mage;
 import HeroRPG.Warrior;
-import Interfaces.Fire;
-import Interfaces.Protection;
 
-public class BattleGround {
+public class Main {
     public static void main(String[] args) {
 
         Zombie zombie1 = new Zombie("Zigzag", 100);
